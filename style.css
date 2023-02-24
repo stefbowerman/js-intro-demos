@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  letter-spacing: -0.025em;;
+  line-height: 1.5;
+  font-family: Helvetica Neue, sans-serif;
+  color: #111;
+  margin: 0;
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px dotted;
+  
+}
